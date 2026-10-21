@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Secrets - never commit
+.env
+*.pem
+*.key
+credentials
+.aws/
+
+# Data and models (use S3 + DVC)
+data/
+datasets/
+*.pt
+*.pth
+*.onnx
+*.zip
+*.tar.gz
+runs/
+weights/
+mlruns/
+.dvc/cache
+.dvc/tmp
+
+# Streamlit and logs
+.streamlit/secrets.toml
+*.log
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
